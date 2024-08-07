@@ -1,0 +1,246 @@
+/* Genel Stil Ayarlarý */
+html, body {
+    font-size: 14px; /* Temel yazý boyutu */
+    margin: 0; /* Kenar boþluklarýný sýfýrla */
+    height: 100%; /* Sayfanýn yüksekliðini %100 yap */
+    overflow-x: hidden; /* Yatay kaydýrmayý gizle */
+}
+
+.anasayfa{
+    font-size:55px;
+}
+
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px; /* Daha geniþ ekranlarda yazý boyutunu artýr */
+    }
+}
+
+.sidebar-left {
+    left: 0;
+}
+
+
+/* Sidebar ve Ana Ýçerik Ayarlarý */
+.sidebar {
+    height: 100vh; /* Sidebar yüksekliði ekran yüksekliðine eþit */
+    width: 250px; /* Sidebar geniþliði 250px */
+    position: fixed; /* Sabit pozisyon */
+    top: 0; /* Üstten sýfýr uzaklýk */
+    background-color: #343a40; /* Koyu arka plan rengi */
+    color: white; /* Yazý rengi beyaz */
+    padding-top: 20px; /* Üstten iç boþluk */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    z-index: 1000; /* Diðer içeriklerin üstünde kalmasýný saðlar */
+    overflow-y: auto; /* Ýçerik taþarsa dikey kaydýrma çubuðu ekler */
+}
+.sidebar-right {
+    right: 0;
+    width: 550px;
+}
+
+    .sidebar a {
+        color: white; /* Linklerin rengi beyaz */
+        padding: 15px; /* Ýç boþluk */
+        text-decoration: none; /* Alt çizgi olmadan */
+        display: block; /* Linkleri blok olarak göster */
+        font-size: 16px; /* Yazý boyutu */
+        font-weight: bold; /* Kalýn yazý stili */
+    }
+
+        .sidebar a:hover {
+            background-color: #626568; /* Hover durumunda arka plan rengi */
+            color: white; /* Hover durumunda yazý rengi beyaz */
+        }
+
+        .sidebar a.active {
+            background-color: #007bff; /* Aktif link arka plan rengi */
+            color: white; /* Aktif link yazý rengi beyaz */
+        }
+
+.sidebar-right a{
+    right: 0;
+    width: 550px;
+    margin:300px;
+}
+
+.main-content {
+    margin-left: 250px; /* Sidebar geniþliðine göre sola kaydýr */
+    padding: 20px; /* Ýç boþluk */
+    overflow: hidden; /* Ýçeriðin taþmasýný önler */
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa; /* Açýk arka plan rengi */
+    border-top: 1px solid #dee2e6; /* Üst sýnýr çizgisi */
+    padding: 20px 0; /* Ýç boþluk */
+    width: 100%; /* Footer geniþliði %100 */
+}
+
+    .footer .text-muted {
+        color: #6c757d; /* Renk gri */
+        font-size: 14px; /* Yazý boyutu */
+    }
+
+    .footer a {
+        color: #007bff; /* Link rengi mavi */
+        text-decoration: none; /* Alt çizgi olmadan */
+    }
+
+        .footer a:hover {
+            text-decoration: underline; /* Hover durumunda alt çizgi */
+        }
+
+/* Login ve Register Sayfalarý Ýçin Stil */
+.login-page .sidebar,
+.register-page .sidebar {
+    display: none; /* Login ve Register sayfalarýnda sidebar'ý gizle */
+}
+
+.login-page .main-content,
+.register-page .main-content {
+    margin-left: 0; /* Margini sýfýrla */
+    padding: 20px; /* Ýç boþluk */
+}
+
+/* Arama Çubuðu ve Gündemler */
+.search-bar .form-control {
+    background-color: #495057; /* Arama çubuðunun arka plan rengi */
+    border: none; /* Kenar çizgisini kaldýr */
+    color: #ffffff; /* Yazý rengi beyaz */
+}
+
+.trending-topics {
+    color: #ffffff; /* Gündemlerin yazý rengi beyaz */
+}
+
+    .trending-topics h5 {
+        font-weight: bold; /* Baþlýk kalýn yazý stili */
+    }
+
+    .trending-topics ul {
+        list-style-type: none; /* Liste iþaretlerini kaldýr */
+        padding: 0; /* Ýç boþluðu sýfýrla */
+    }
+
+        .trending-topics ul li {
+            background-color: #495057;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            /* letter-spacing: revert; */
+            padding-block: 25px;
+            font-size: 17px;
+            margin-bottom: 22px;
+        }
+
+/* Gönderi Kartlarý Ýçin Stil */
+.post-card {
+    border: 1px solid #ddd; /* Kart sýnýrý */
+    border-radius: 8px; /* Köþeleri yuvarla */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    margin-bottom: 1rem; /* Alt boþluk */
+    background-color: #000000; /* Kart arka plan rengi siyah */
+}
+
+    .post-card .card-body {
+        display: flex; /* Flex düzeni */
+        flex-direction: column; /* Dikey düzen */
+        justify-content: space-between; /* Ýçeriði yerleþtir */
+        padding: 15px; /* Ýç boþluk */
+    }
+
+/* Post Baþlýðý ve Kullanýcý Bilgileri */
+.post-header {
+    border-bottom: 1px solid #ddd; /* Alt sýnýr çizgisi */
+    padding-bottom: 10px; /* Alt iç boþluk */
+    margin-bottom: 10px; /* Alt boþluk */
+    font-size: 20px; /* Yazý boyutu */
+}
+
+    .post-header .post-title {
+        font-size: 10px; /* Baþlýk font boyutu */
+        margin: 0; /* Margini sýfýrla */
+        font-weight: bold; /* Kalýn yazý stili */
+        color: #ffffff; /* Yazý rengi beyaz */
+    }
+
+    .post-header .user-info {
+        font-size: 20px; /* Kullanýcý bilgileri font boyutu */
+        color: #ffffff; /* Yazý rengi beyaz */
+        margin-top: 5px; /* Üstten boþluk */
+    }
+
+/* Post Ýçeriði */
+.post-content {
+    margin-top: 10px; /* Üstten boþluk */
+    font-size: 20px; /* Yazý font boyutu */
+    font-family: 'Arial', sans-serif; /* Yazý fontu */
+    line-height: 1.8; /* Satýr yüksekliði */
+    color: #ffffff; /* Yazý rengi beyaz */
+}
+
+/* Post Listesi */
+.post-list {
+    display: flex; /* Flex düzeni */
+    flex-direction: column; /* Dikey hizalama */
+    gap: 3rem; /* Kartlar arasýnda boþluk */
+    margin-top: 10px; /* Üstten boþluk */
+}
+
+    .post-list .card {
+        height: auto; /* Yüksekliði içeriðe göre ayarla */
+        overflow: hidden; /* Ýçeriðin karttan taþmasýný önle */
+        display: flex; /* Flex düzeni */
+        flex-direction: column; /* Dikey düzen */
+        margin-bottom: 1rem; /* Kartlar arasýnda boþluk */
+    }
+
+    .post-list .card-body {
+        display: flex; /* Flex düzeni */
+        flex-direction: column; /* Dikey düzen */
+        justify-content: space-between; /* Ýçeriði yerleþtir */
+        overflow: hidden; /* Ýçeriðin karttan taþmasýný önle */
+        height: -webkit-fill-available;
+    }
+
+    .post-list .post-date {
+        color: #ffffff; /* Tarih yazýsýnýn rengi beyaz */
+        font-size: 20px; /* Tarih yazýsýnýn font boyutu */
+        margin-bottom: 0px; /* Alt boþluk */
+        font-family: 'Arial', sans-serif; /* Yazý fontu */
+    }
+
+/* Arama Çubuðu */
+.search-bar {
+    padding: 20px;
+}
+
+    .search-bar .form-control {
+        border-radius: 50px; /* Kenarlarý yuvarlat */
+        height: 50px;
+    }
+
+/* Gönder Butonu Ýçin Stil */
+.nav-item .nav-link.active {
+    background-color: #007bff; /* Aktif link arka plan rengi */
+    color: white; /* Yazý rengi beyaz */
+    border-radius: 45px; /* Kenarlarý yuvarlat */
+    padding: 10px 20px; /* Ýç boþluk */
+    border: 2px solid #007bff; /* Mavi çerçeve */
+}
+
+    .nav-item .nav-link.active:hover {
+        background-color: #0056b3; /* Hover durumunda koyu mavi arka plan */
+        border-color: #0056b3; /* Hover durumunda çerçeve rengi */
+    }
+
+.card-text {
+    color: white; /* Metin rengini beyaz yap */
+    font-size: 13px; /* Yazý font boyutu */
+    overflow-wrap: break-word; /* Kelime kýrma */
+    word-break: break-word; /* Kelime sýnýrýný kýrma */
+}
+

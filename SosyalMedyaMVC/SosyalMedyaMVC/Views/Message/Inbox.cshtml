@@ -1,0 +1,49 @@
+﻿@model IEnumerable<SosyalMedyaMVC.Models.MessageViewModel>
+
+@{
+    ViewData["Title"] = "Gelen Kutusu";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+else if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Gönderen</th>
+            <th>Mesaj</th>
+            <th>Tarih</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var message in Model)
+            {
+                <tr>
+                    <td>@message.Sender</td>
+                    <td>@message.Content</td>
+                    <td>@message.SendDate.ToString("g")</td> <!-- Formatlama ekleyebilirsiniz -->
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">Mesaj bulunamadı.</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,307 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\views\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\views\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\views\\profile\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\views\\profile\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\models\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\models\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|c:\\users\\demir\\desktop\\sosyalmedyamvc\\sosyalmedyamvc\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B962A8-3CF9-400F-BDAB-C45E35D5F95B}|SosyalMedyaMVC\\SosyalMedyaMVC.csproj|solutionrelative:sosyalmedyamvc\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 600,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Views\\Post\\Index.cshtml",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "SosyalMedyaMVC\\Views\\Post\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T10:56:19.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "SosyalMedyaMVC\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T10:56:15.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Views\\Post\\Details.cshtml",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Views\\Post\\Details.cshtml",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Views\\Post\\Details.cshtml",
+              "RelativeToolTip": "SosyalMedyaMVC\\Views\\Post\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T07:45:38.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Views\\Post\\Create.cshtml",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Views\\Post\\Create.cshtml",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Views\\Post\\Create.cshtml",
+              "RelativeToolTip": "SosyalMedyaMVC\\Views\\Post\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T07:38:17.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "SosyalMedyaMVC\\Controllers\\MessageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T07:37:31.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SosyalMedyaMVC\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T07:26:25.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Models\\ViewModels\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Models\\ViewModels\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Models\\ViewModels\\UserViewModel.cs",
+              "RelativeToolTip": "SosyalMedyaMVC\\Models\\ViewModels\\UserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T07:26:21.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Views\\Profile\\Update.cshtml",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Views\\Profile\\Update.cshtml",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Views\\Profile\\Update.cshtml",
+              "RelativeToolTip": "SosyalMedyaMVC\\Views\\Profile\\Update.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T07:25:56.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "SosyalMedyaMVC\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAQwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T07:18:50.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Like.cs",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Models\\Like.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Models\\Like.cs",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Models\\Like.cs",
+              "RelativeToolTip": "SosyalMedyaMVC\\Models\\Like.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T07:01:56.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\PostController.cs",
+              "RelativeToolTip": "SosyalMedyaMVC\\Controllers\\PostController.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAmwJcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:59:42.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Models\\Post.cs",
+              "RelativeToolTip": "SosyalMedyaMVC\\Models\\Post.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:36:59.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SosyalMedyaMVC\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:36:43.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Models\\Comment.cs",
+              "RelativeToolTip": "SosyalMedyaMVC\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:33:39.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\demir\\Desktop\\SosyalMedyaMVC\\SosyalMedyaMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SosyalMedyaMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:31:44.85Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 99,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

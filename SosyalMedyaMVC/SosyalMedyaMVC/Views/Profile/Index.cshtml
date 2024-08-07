@@ -1,0 +1,13 @@
+﻿@model SosyalMedyaMVC.Models.User
+
+<div class="profile-section">
+    <h3>@Model.FullName</h3>
+    <p>Kullanıcı Adı: @Model.UserName</p>
+    <p>Email: @Model.Email</p>
+    <p>Telefon: @Model.Phone</p>
+    <p>Biyografi: @Model.Bio</p>
+    <form asp-action="Logout" method="post">
+        <button type="submit" class="btn btn-danger">Çıkış Yap</button>
+    </form>
+    <a href="@Url.Action("Update", "Profile")" class="btn btn-secondary">Bilgileri Güncelle</a>
+</div>

@@ -1,0 +1,28 @@
+﻿@model SosyalMedyaMVC.Models.Post
+
+<div class="post-detail">
+    <h3>@Model.FullName</h3>
+    <p>@Model.CreatedDate.ToString("dd MMM yyyy")</p>
+    <p>@Model.Content</p>
+    @if (!string.IsNullOrEmpty(Model.ImagePath))
+    {
+        <img src="~/@Model.ImagePath" alt="Post Image" />
+    }
+
+    <form asp-action="AddComment" method="post">
+        <input type="hidden" name="postId" value="@Model.Id" />
+        <textarea name="commentText" rows="4" cols="50" placeholder="Yorum yapın..."></textarea>
+        <button type="submit" class="btn btn-primary">Yorum Yap</button>
+    </form>
+
+    <h4>Yorumlar:</h4>
+    <ul>
+        @foreach (var comment in Model.Comments)
+        {
+            <li>
+                <strong>@comment.UserId:</strong> @comment.Content
+                <span class="text-muted">(@comment.CreatedDate.ToString("dd MMM yyyy"))</span>
+            </li>
+        }
+    </ul>
+</div>

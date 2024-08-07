@@ -1,0 +1,30 @@
+﻿@model SosyalMedyaMVC.Models.Post
+
+@{
+    ViewData["Title"] = "Yeni Gönderi";
+    ViewData["BodyClass"] = "new-post-page";
+}
+
+<h2>Yeni Gönderi Oluştur</h2>
+
+<form asp-action="Create" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Content" class="control-label"></label>
+        <textarea asp-for="Content" class="form-control" maxlength="400"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+        <small>400 karaktere kadar yazabilirsiniz.</small>
+    </div>
+    <div class="form-group">
+        <label>Resim Yükle</label>
+        <input type="file" name="ImageFile" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Paylaş" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

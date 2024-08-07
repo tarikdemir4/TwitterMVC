@@ -1,0 +1,97 @@
+﻿@model IEnumerable<SosyalMedyaMVC.Models.Post>
+
+@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<p class="anasayfa">Anasayfa</p>
+
+@if (ViewBag.IsLoggedIn == true)
+{
+    <p>@ViewBag.WelcomeMessage</p>
+
+    @if (TempData["LikeMessage"] != null)
+    {
+        <div class="alert alert-info">
+            @TempData["LikeMessage"]
+        </div>
+    }
+
+    <div>
+        @if (Model != null && Model.Any())
+        {
+            <div class="container">
+                <div class="row post-list">
+                    @foreach (var post in Model)
+                    {
+                        <div class="col-xl-12 mb-4">
+                            <div class="post-card">
+                                <div class="card-body">
+                                    <div class="post-header">
+                                        <p class="user-info">@post.FullName &commat;@post.UserName</p>
+                                    </div>
+                                    <div class="row">
+                                        @if (!string.IsNullOrEmpty(post.ImagePath))
+                                        {
+                                            <div class="col-xl-6 col-md-12">
+                                                <img src="~/@post.ImagePath" alt="Gönderi Resmi" class="w-100" />
+                                            </div>
+                                        }
+                                        <div class="col-xl-6 col-md-12">
+                                            <p class="card-text">@post.Content</p>
+                                            <small class="text-muted">@post.CreatedDate.ToString("g")</small>
+                                        </div>
+                                    </div>
+                                    <div class="post-actions">
+                                        <form asp-action="LikePost" asp-controller="Post" method="post">
+                                            <input type="hidden" name="postId" value="@post.Id" />
+                                            <button type="submit" class="btn btn-primary">Beğen (@post.LikeCount)</button>
+                                        </form>
+
+                                        <button class="btn btn-secondary" onclick="toggleCommentForm(@post.Id)">Yorum Yap</button>
+
+                                        <div id="comment-form-@post.Id" style="display:none;">
+                                            <form asp-action="Index" asp-controller="Home" method="post">
+                                                <input type="hidden" name="postId" value="@post.Id" />
+                                                <textarea name="content" class="form-control" placeholder="Yorumunuzu yazın"></textarea>
+                                                <button type="submit" class="btn btn-success mt-2">Paylaş</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="comments-section">
+                                        @foreach (var comment in post.Comments)
+                                        {
+                                            <div class="comment">
+                                                <p>@comment.Content</p>
+                                                <small class="text-muted">@comment.CreatedDate.ToString("g")</small>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+        else
+        {
+            <p>Henüz paylaşım yok.</p>
+        }
+    </div>
+}
+else
+{
+    <p>Giriş yapmamışsınız. Lütfen <a asp-action="Login" asp-controller="Home">giriş yapınız</a>.</p>
+}
+
+<script>
+    function toggleCommentForm(postId) {
+        var form = document.getElementById('comment-form-' + postId);
+        if (form.style.display === 'none') {
+            form.style.display = 'block';
+        } else {
+            form.style.display = 'none';
+        }
+    }
+</script>

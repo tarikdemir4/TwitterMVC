@@ -1,0 +1,44 @@
+﻿@model SosyalMedyaMVC.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Giriş Yap";
+    ViewData["BodyClass"] = "login-page";
+}
+
+<div class="container">
+    <div class="row justify-content-center align-items-center min-vh-100">
+        <div class="col-md-4">
+            @if (ViewBag.IsLoggedIn)
+            {
+                <p>Zaten giriş yaptınız. Ana sayfaya yönlendiriliyorsunuz...</p>
+            }
+            else
+            {
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Giriş Yap</h3>
+                        <form asp-action="Login" method="post">
+                            <div class="form-group">
+                                <label asp-for="UserName" class="control-label">Kullanıcı Adı</label>
+                                <input asp-for="UserName" class="form-control" />
+                                <span asp-validation-for="UserName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Password" class="control-label">Şifre</label>
+                                <input asp-for="Password" type="password" class="form-control" />
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Giriş Yap" class="btn btn-primary" />
+                            </div>
+                        </form>
+
+                        <h3 class="mt-4">Kayıt Ol</h3>
+                        <p>Hesabınız yok mu? <a asp-area="" asp-controller="User" asp-action="Register">Buradan kayıt olun</a></p>
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SosyalMedyaMVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="d-flex flex-column min-vh-100 @ViewData["BodyClass"]">
+    <header>
+    </header>
+    @if (ViewData["BodyClass"] == "login-page" || ViewData["BodyClass"] == "register-page")
+    {
+        <main class="container mt-4">
+            @RenderBody()
+        </main>
+    }
+    else
+    {
+        <div class="container-fluid flex-grow-1">
+            <div class="row">
+
+           @* sidebar left menu *@
+                <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar sidebar-left">
+                    <div class="position-sticky">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="@Url.Action("Index", "Home")">
+                                    <img src="~/img/X.png" alt="Logo" class="img-fluid" style="width: 40px; height: 40px;"> <br />
+                                </a>
+                                <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">
+                                    <i class="fas fa-home"></i> Anasayfa
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Explore">
+                                    <i class="fas fa-search"></i> Keşfet
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Notifications" asp-action="Index">
+                                    <i class="fas fa-bell"></i> Bildirimler
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Message" asp-action="Inbox">
+                                    <i class="fas fa-envelope"></i> Mesajlar
+                                </a>
+                                <ul class="nav flex-column ml-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" asp-area="" asp-controller="Message" asp-action="SendMessage">
+                                            <i class="fas fa-plus"></i> Mesaj Gönder
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Groups" asp-action="Index">
+                                    <i class="fas fa-users"></i> Gruplar
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Communities" asp-action="Index">
+                                    <i class="fas fa-user-friends"></i> Topluluklar
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Premium" asp-action="Index">
+                                    <i class="fab fa-twitter"></i> Premium
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Profile" asp-action="Index">
+                                    <i class="fas fa-user"></i> Profil
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="More" asp-action="Index">
+                                    <i class="fas fa-ellipsis-h"></i> Daha Fazla
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" asp-area="" asp-controller="Post" asp-action="Create">
+                                    Gönder
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+
+          
+
+                <main class="col-sm-6 px-4 main-content">
+                    @RenderBody()
+                    @RenderSection("RegisterForm", required: false)
+                </main>
+
+
+           @* sidebar rigth keşfet *@
+                <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar sidebar-right">
+                    <div class="position-sticky">
+                        <aside class="">
+                            <div class="search-bar mb-4">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Ara..." aria-label="Search">
+                                </div>
+                            </div>
+                            <div class="trending-topics mt-4">
+                                <h5>İlgini Çekebilecek Gündemler</h5>
+                                <ul>
+                                    <li>#Gündem1: Teknoloji dünyasında büyük bir gelişme!</li>
+                                    <li>#Gündem2: Yeni sosyal medya trendleri neler?</li>
+                                    <li>#Gündem3: Ünlülerin son paylaşımları</li>
+                                    <li>#Gündem4: Spor dünyasından sıcak gelişmeler</li>
+                                    <li>#Gündem5: Sağlık ve yaşam tarzı ipuçları</li>
+                                    <li>#Gündem6: Ekonomideki son hareketlilikler</li>
+                                    <li>#Gündem7: Dünya genelinde eğitimde yenilikler</li>
+                                    <li>#Gündem8: Sanat ve kültür dünyasında güncel haberler</li>
+                                    <li>#Gündem9: Çevre ve doğa koruma projeleri</li>
+                                    <li>#Gündem10: Seyahat ve tatil önerileri</li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                </nav>
+
+
+            </div>
+        </div>
+    }
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">© 2024 - SosyalMedyaMVC - <a href="@Url.Action("Privacy", "Home")">Gizlilik</a></span>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿@model IEnumerable<SosyalMedyaMVC.Models.Post>
+
+@{
+    ViewData["Title"] = "Gönderiler";
+}
+
+<h2>Gönderiler</h2>
+
+<div class="post-list">
+    @foreach (var post in Model)
+    {
+        <div class="post">
+            <div class="post-header">
+                <h3>@post.Title</h3>
+                <p class="user-info"><strong>Kullanıcı Adı:</strong> @post.UserName</p>
+                <p class="user-info"><strong>Ad Soyad:</strong> @post.FullName</p>
+            </div>
+            <div class="post-content">
+                <p>@post.Content</p>
+                @if (!string.IsNullOrEmpty(post.ImagePath))
+                {
+                    <div>
+                        <img src="~/@post.ImagePath" alt="Gönderi Resmi" />
+                    </div>
+                }
+            </div>
+
+            <p><strong>Oluşturulma Tarihi:</strong> @post.CreatedDate.ToString("dd MMM yyyy HH:mm")</p>
+        </div>
+    }
+</div>
